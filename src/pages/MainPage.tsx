@@ -13,7 +13,7 @@ const MainPage = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "src/team_images/rdn-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/rdn-1024x1024-190x190.jpeg",
         name: "Nicole Roeder",
         role: "Schulleiterin",
         department: "-",
@@ -22,7 +22,7 @@ const MainPage = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "src/team_images/foos-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/foos-1024x1024-190x190.jpeg",
         name: "Klaus-Martin Foos",
         role: "Stellvertretender Schulleiter",
         department: "-",
@@ -33,7 +33,7 @@ const MainPage = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "src/team_images/kempf-1-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/kempf-1-1024x1024-190x190.jpeg",
         name: "Matthias Kempf",
         role: "Abteilungsleiter",
         department: "Gewerbliche Schule",
@@ -43,7 +43,7 @@ const MainPage = () => {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
         imageSrc:
-          "src/team_images/84B094DE-C3E2-4F92-85C8-1AD6DE1E4FF7-1024x1024-190x190.jpeg",
+          "/team_images/84B094DE-C3E2-4F92-85C8-1AD6DE1E4FF7-1024x1024-190x190.jpeg",
         name: "Sven Hölig",
         role: "Abteilungsleiter",
         department: "Kaufmännische Schule und Übergang Schule & Beruf",
@@ -52,7 +52,7 @@ const MainPage = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "src/team_images/odw-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/odw-1024x1024-190x190.jpeg",
         name: "Christian Odenwald",
         role: "Abteilungsleiter",
         department: "Hauswirtschaftliche Schule",
@@ -61,7 +61,7 @@ const MainPage = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "src/team_images/heilig-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/heilig-1024x1024-190x190.jpeg",
         name: "Gerd Heilig",
         role: "Abteilungsleiter",
         department: "Berufskolleg",
@@ -70,7 +70,7 @@ const MainPage = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "src/team_images/neu-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/neu-1024x1024-190x190.jpeg",
         name: "Andrea Neumann",
         role: "Abteilungsleiterin",
         department: "Berufliches Gymnasium",
@@ -93,7 +93,7 @@ const MainPage = () => {
         <BSB_Why />
       </Box>
       <Box sx={{ bgcolor: "#e5ebf1", p: 5 }}>
-        <BSB_Team teamGrid={teamGrid} />
+        <BSB_Team teamGrid={teamGrid} nameColor="#333333" roleColor="#336495" departmentColor="#808080" />
       </Box>
       <Box sx={{ bgcolor: "none", p: 5 }}>
         <BSB_News />

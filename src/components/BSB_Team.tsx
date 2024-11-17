@@ -3,7 +3,6 @@ import {
   Container,
   Divider,
   Grid2,
-  Paper,
   Typography,
 } from "@mui/material";
 
@@ -28,9 +27,12 @@ type GridProps = {
 
 type BSB_TeamProps = {
   teamGrid: GridProps[];
+  nameColor: string;
+  roleColor: string;
+  departmentColor: string;
 };
 
-const BSB_Team: React.FC<BSB_TeamProps> = ({ teamGrid }) => {
+const BSB_Team: React.FC<BSB_TeamProps> = ({ teamGrid, nameColor, roleColor, departmentColor }) => {
   interface TeamMemberProps {
     imageSrc: string;
     name: string;
@@ -45,7 +47,7 @@ const BSB_Team: React.FC<BSB_TeamProps> = ({ teamGrid }) => {
     department,
   }) => {
     return (
-      <Paper sx={{ padding: 2, height: 300, borderRadius: 8 }}>
+      <Box sx={{ padding: 2, height: 300, borderRadius: 8 }}>
         <Box
           display="flex"
           alignItems="center"
@@ -64,13 +66,13 @@ const BSB_Team: React.FC<BSB_TeamProps> = ({ teamGrid }) => {
             draggable={"false"}
           />
           <Box sx={{ textAlign: "center", marginTop: 2 }}>
-            <Typography fontSize={20} color="#333333">
+            <Typography fontSize={20} color={nameColor}>
               <strong>{name}</strong>
             </Typography>
             <Typography
               fontSize={15}
               sx={{
-                color: "#336495",
+                color: roleColor,
               }}
             >
               {role}
@@ -78,7 +80,7 @@ const BSB_Team: React.FC<BSB_TeamProps> = ({ teamGrid }) => {
             <Typography
               fontSize={13}
               sx={{
-                color: "#808080",
+                color: departmentColor,
                 wordBreak: "break-word",
                 overflowWrap: "break-word",
                 whiteSpace: "normal",
@@ -88,7 +90,7 @@ const BSB_Team: React.FC<BSB_TeamProps> = ({ teamGrid }) => {
             </Typography>
           </Box>
         </Box>
-      </Paper>
+      </Box>
     );
   };
 
@@ -101,10 +103,10 @@ const BSB_Team: React.FC<BSB_TeamProps> = ({ teamGrid }) => {
           flexDirection: "column",
         }}
       >
-        <Typography sx={{ fontSize: 25 }}>
+        <Typography sx={{ fontSize: 25 }} color={nameColor}>
           <strong>Unser Team</strong>
         </Typography>
-        <Divider sx={{ bgcolor: "#bdcddd", width: "50%", mb: 5, mt: 2 }} />
+        <Divider sx={{ bgcolor: nameColor, width: "50%", mb: 5, mt: 2 }} />
 
         <Grid2
           container

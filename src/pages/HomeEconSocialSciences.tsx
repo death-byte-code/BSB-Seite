@@ -7,7 +7,7 @@ const HomeEconSocialSciences = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/odw-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/odw-1024x1024-190x190.jpeg",
         name: "Christian Odenwald",
         role: "Abteilungsleiter",
         department: "",
@@ -16,7 +16,7 @@ const HomeEconSocialSciences = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/Elke_Henn-190x190.jpg",
+        imageSrc: "/team_images/Elke_Henn-190x190.jpg",
         name: "Elke Henn",
         role: "Abteilungsassistenz Altenpflegehilfe",
         department: "",
@@ -25,7 +25,7 @@ const HomeEconSocialSciences = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/Gerd_Geweniger-190x190.jpg",
+        imageSrc: "/team_images/Gerd_Geweniger-190x190.jpg",
         name: "Gerd Geweniger",
         role: "Abteilungsassistenz Sozialpädagogik",
         department: "",
@@ -34,7 +34,7 @@ const HomeEconSocialSciences = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/MLR-Mueller-Dominik-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/MLR-Mueller-Dominik-1024x1024-190x190.jpeg",
         name: "Dominik Müller",
         role: "Abteilungsassistenz Zweijährige Berufsfachschulen",
         department: "",
@@ -45,7 +45,7 @@ const HomeEconSocialSciences = () => {
 
   const text = (
     <Box maxWidth="lg">
-      <Typography variant="h4" gutterBottom>
+      <Typography variant="h4" gutterBottom color="#f77f00">
         Hauswirtschaftlich – sozialwissenschaftliche Schule
       </Typography>
 
@@ -58,7 +58,7 @@ const HomeEconSocialSciences = () => {
       </Typography>
 
       <Typography variant="h6" paragraph>
-        Wir legen Wert auf Lernen mit Kopf, Herz und Hand!
+        <strong>Wir legen Wert auf Lernen mit Kopf, Herz und Hand!</strong>
       </Typography>
 
       <Typography variant="body1" paragraph>
@@ -74,7 +74,7 @@ const HomeEconSocialSciences = () => {
       </Typography>
 
       <Typography variant="h6" gutterBottom>
-        Zweijährige Berufsfachschule sozialpädagogische Assistenz
+        <strong>Zweijährige Berufsfachschule sozialpädagogische Assistenz</strong>
       </Typography>
       <Typography variant="body2" paragraph>
         (ehem. „Kinderpflege“) mit anschließendem Anerkennungsjahr führt zur
@@ -88,7 +88,7 @@ const HomeEconSocialSciences = () => {
       </Typography>
 
       <Typography variant="h6" gutterBottom>
-        Zweijährige Berufsfachschule für Altenpflegehilfe für Migrant*innen
+        <strong>Zweijährige Berufsfachschule für Altenpflegehilfe für Migrant*innen</strong>
       </Typography>
       <Typography variant="body2" paragraph>
         Führt zu einer staatlichen Anerkennung in der Pflege und Betreuung von
@@ -96,7 +96,7 @@ const HomeEconSocialSciences = () => {
       </Typography>
 
       <Typography variant="h6" gutterBottom>
-        Berufsfachschule zum Erwerb von Zusatzqualifikationen
+        <strong>Berufsfachschule zum Erwerb von Zusatzqualifikationen</strong>
       </Typography>
       <Typography variant="body2" paragraph>
         Schwerpunkt Vorbereitung Erzieher*innenabschluss führt zum Einsatz als

@@ -52,7 +52,7 @@ const SubPageLayout: React.FC<BSB_Props> = ({
         </Container>
       </Box>
       <Box bgcolor={boxColor} sx={{ p: 5 }}>
-        <BSB_Team teamGrid={teamGrid} />
+        <BSB_Team teamGrid={teamGrid} nameColor="#FFFFFF" roleColor="#FFFFFF" departmentColor="" />
       </Box>
       <Box sx={{ p: 5 }}>
         <BSB_News />

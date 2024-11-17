@@ -7,7 +7,7 @@ const VocationalColleges = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/heilig-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/heilig-1024x1024-190x190.jpeg",
         name: "Gerd Heilig",
         role: "Abteilungsleiter",
         department: "",
@@ -16,7 +16,7 @@ const VocationalColleges = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/KUT-Kuttler-Jonas-1024x1024-190x190.jpg",
+        imageSrc: "/team_images/KUT-Kuttler-Jonas-1024x1024-190x190.jpg",
         name: "Jonas Kuttler",
         role: "Abteilungsassistenz Altenpflegehilfe",
         department: "",
@@ -25,7 +25,7 @@ const VocationalColleges = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/kull-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/kull-1024x1024-190x190.jpeg",
         name: "Tamara Kull",
         role: "Abteilungsassistenz Sozialpädagogik",
         department: "",
@@ -34,7 +34,7 @@ const VocationalColleges = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/IMG_6784-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/IMG_6784-1024x1024-190x190.jpeg",
         name: "Simone Diehlmann",
         role: "Abteilungsassistenz Zweijährige Berufsfachschulen",
         department: "",
@@ -45,7 +45,7 @@ const VocationalColleges = () => {
 
   const text = (
     <Box sx={{ padding: 2 }}>
-      <Typography variant="h4" gutterBottom>
+      <Typography variant="h4" gutterBottom color="#90be6d">
         Berufskollegs
       </Typography>
 
@@ -64,13 +64,13 @@ const VocationalColleges = () => {
         Assistentin“) erworben werden.
       </Typography>
 
-      <Typography variant="h6">Fachhochschulreife</Typography>
+      <Typography variant="h6"><strong>Fachhochschulreife</strong></Typography>
       <Typography variant="body2">
         Die Fachhochschulreife kann als zusätzliche Qualifikation erworben
         werden.
       </Typography>
 
-      <Typography variant="h6">Assistentenqualifikation</Typography>
+      <Typography variant="h6"><strong>Assistentenqualifikation</strong></Typography>
       <Typography variant="body2">
         In jedem Profil kann auch ein Abschluss als "Staatlich geprüfter
         Assistent" erreicht werden.
@@ -85,7 +85,7 @@ const VocationalColleges = () => {
         text={text}
         boxColor="#90be6d"
         imagePath="/Innenhof_02-1-scaled.jpg"
-        imageText="Berufskolleg"
+        imageText="Berufskollegs"
       />
     </div>
   );

@@ -7,7 +7,7 @@ const VocationalTradeSchool = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/kempf-1-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/kempf-1-1024x1024-190x190.jpeg",
         name: "Matthias Kempf",
         role: "Abteilungsleiter",
         department: "",
@@ -16,7 +16,7 @@ const VocationalTradeSchool = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/Knoedler_Amelie-1024x1024-190x194.jpeg",
+        imageSrc: "/team_images/Knoedler_Amelie-1024x1024-190x194.jpeg",
         name: "Amelie Knödler",
         role: "Abteilungsassistentin",
         department: "",
@@ -27,7 +27,7 @@ const VocationalTradeSchool = () => {
 
   const text = (
     <Box>
-      <Typography variant="h5" gutterBottom color={"#0069b4"}>
+      <Typography variant="h4" gutterBottom color={"#0069b4"}>
         Gewerbliche Schule
       </Typography>
 

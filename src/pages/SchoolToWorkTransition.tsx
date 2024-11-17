@@ -1,5 +1,5 @@
 import SubPageLayout from "../components/SubPageLayout";
-import { Box, List, ListItem, ListItemText, Typography } from "@mui/material";
+import { Box, Link, List, ListItem, ListItemText, Typography } from "@mui/material";
 
 const SchoolToWorkTransition = () => {
   const teamGrid = [
@@ -8,7 +8,7 @@ const SchoolToWorkTransition = () => {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
         imageSrc:
-          "/src/team_images/84B094DE-C3E2-4F92-85C8-1AD6DE1E4FF7-1024x1024-190x190.jpeg",
+          "/team_images/84B094DE-C3E2-4F92-85C8-1AD6DE1E4FF7-1024x1024-190x190.jpeg",
         name: "Sven Hölig",
         role: "Abteilungsleiter",
         department: "",
@@ -17,7 +17,7 @@ const SchoolToWorkTransition = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/btr-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/btr-1024x1024-190x190.jpeg",
         name: "Erik Böttcher",
         role: "Abteilungsassistenz",
         department: "",
@@ -26,7 +26,7 @@ const SchoolToWorkTransition = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/rue-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/rue-1024x1024-190x190.jpeg",
         name: "Ann-Katrin Rück",
         role: "Abteilungsassistentin",
         department: "",
@@ -37,7 +37,7 @@ const SchoolToWorkTransition = () => {
 
   const text = (
     <Box>
-      <Typography variant="h4" gutterBottom>
+      <Typography variant="h4" gutterBottom color="#d90429">
         Übergang Schule und Beruf
       </Typography>
 
@@ -48,19 +48,19 @@ const SchoolToWorkTransition = () => {
       <List>
         <ListItem>
           <ListItemText
-            primary="AVdual – Ausbildungsvorbereitung dual"
+            primary={<Link href="#" underline="none" color="#d90429" ><strong>AVdual – Ausbildungsvorbereitung dual</strong></Link>}
             secondary="Ein Programm, das auf die Integration in eine Ausbildung vorbereitet und duale Lernformen fördert."
           />
         </ListItem>
         <ListItem>
           <ListItemText
-            primary="Schule International – Informationen für zugewanderte Schülerinnen und Schüler (VABO)"
+            primary={<Link href="#" underline="none" color="#d90429" ><strong>Schule International – Informationen für zugewanderte Schülerinnen und Schüler (VABO)</strong></Link>}
             secondary="Informationen und Programme für Schülerinnen und Schüler, die aus dem Ausland zugewandert sind."
           />
         </ListItem>
         <ListItem>
           <ListItemText
-            primary="Anmeldeportal für zugewanderte Schülerinnen und Schüler (VABO) des Landkreises Karlsruhe"
+            primary={<Link href="#" underline="none" color="#d90429" ><strong>Anmeldeportal für zugewanderte Schülerinnen und Schüler (VABO) des Landkreises Karlsruhe</strong></Link>}
             secondary="Das offizielle Anmeldeportal für zugewanderte Schülerinnen und Schüler des Landkreises Karlsruhe."
           />
         </ListItem>

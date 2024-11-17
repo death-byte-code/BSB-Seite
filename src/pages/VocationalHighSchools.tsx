@@ -6,7 +6,7 @@ const VocationalHighSchools = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/neu-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/neu-1024x1024-190x190.jpeg",
         name: "Andrea Neumann",
         role: "Abteilungsleiter",
         department: "",
@@ -15,7 +15,7 @@ const VocationalHighSchools = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/rol-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/rol-1024x1024-190x190.jpeg",
         name: "Frank Roll",
         role: "Stellvertretender Abteilungsleiter, Oberstufenberater",
         department: "",
@@ -24,7 +24,7 @@ const VocationalHighSchools = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/hel-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/hel-1024x1024-190x190.jpeg",
         name: "Dr. Janina Hellmann",
         role: "Abteilungsassistentin",
         department: "",
@@ -33,7 +33,7 @@ const VocationalHighSchools = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/luz-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/luz-1024x1024-190x190.jpeg",
         name: "Lena Lutz",
         role: "Abteilungsassistentin",
         department: "",
@@ -42,7 +42,7 @@ const VocationalHighSchools = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/LPH-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/LPH-1024x1024-190x190.jpeg",
         name: "Stephanie Lampoltshammer",
         role: "Abteilungsassistentin",
         department: "",
@@ -52,8 +52,8 @@ const VocationalHighSchools = () => {
 
   const text = (
     <Box>
-      <Typography>Berufliches Gymnasium</Typography>
-      <Typography>
+      <Typography variant="h4" gutterBottom color="#43aa8b">Berufliches Gymnasium</Typography>
+      <Typography variant="body1" paragraph>
         Das berufliche Gymnasium der dreijährigen Aufbauform wird an den
         Beruflichen Schulen Bretten als Technisches Gymnasium mit den
         Fachrichtungen Informationstechnik, Technik und Management, Gestaltungs-

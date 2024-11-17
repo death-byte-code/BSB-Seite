@@ -11,12 +11,12 @@ import SubPageLayout from "../components/SubPageLayout";
 const CommercialVocSchool = () => {
   const text = (
     <Box>
-      <Typography variant="h4" gutterBottom>
+      <Typography variant="h4" gutterBottom color="#0077b6">
         Herzlich Willkommen in der Kaufmännischen Berufsschule
       </Typography>
 
       <Typography variant="h6" gutterBottom>
-        Entschuldigung oder Freistellung notwendig?
+        <strong>Entschuldigung oder Freistellung notwendig?</strong>
       </Typography>
       <Typography>
         Nutzen Sie bitte folgende E-Mail-Adresse:{" "}
@@ -24,7 +24,7 @@ const CommercialVocSchool = () => {
       </Typography>
 
       <Typography variant="h6" gutterBottom sx={{ marginTop: 3 }}>
-        Wann findet der Unterricht im Schuljahr 2024/2025 statt?
+        <strong>Wann findet der Unterricht im Schuljahr 2024/2025 statt?</strong>
       </Typography>
       <Typography>
         Der Unterricht in der kaufmännischen Berufsschule beginnt – mit Ausnahme
@@ -131,7 +131,7 @@ const CommercialVocSchool = () => {
       <Divider sx={{ marginY: 3 }} />
 
       <Typography variant="h6" gutterBottom>
-        Weitere Informationen
+        <strong>Weitere Informationen</strong>
       </Typography>
       <Typography variant="body1">
         Die Ausbildungsgänge Fachinformatiker/in Digitale Vernetzung sowie Daten
@@ -139,7 +139,7 @@ const CommercialVocSchool = () => {
       </Typography>
 
       <Typography variant="h6" sx={{ marginTop: 3 }} gutterBottom>
-        Wann sind Ferien? Was ist eine A- oder B-Woche?
+        <strong>Wann sind Ferien? Was ist eine A- oder B-Woche?</strong>
       </Typography>
 
       <Typography variant="body1">
@@ -147,7 +147,7 @@ const CommercialVocSchool = () => {
       </Typography>
 
       <Typography variant="h6" sx={{ marginTop: 3 }} gutterBottom>
-        Wie melde ich einen Auszubildenden an?
+        <strong>Wie melde ich einen Auszubildenden an?</strong>
       </Typography>
       <Typography variant="body1">
         Hier finden Sie alle Anmeldeformulare zum Download, bitte schicken Sie
@@ -155,7 +155,7 @@ const CommercialVocSchool = () => {
       </Typography>
 
       <Typography variant="h6" sx={{ marginTop: 3 }} gutterBottom>
-        Wann ist eine Aufnahme in der kaufmännischen Berufsschule möglich?
+        <strong>Wann ist eine Aufnahme in der kaufmännischen Berufsschule möglich?</strong>
       </Typography>
       <Typography variant="body1">
         Ihr Ausbildungsbetrieb, bei dem Sie Ihren Ausbildungsvertrag haben,
@@ -163,7 +163,7 @@ const CommercialVocSchool = () => {
       </Typography>
 
       <Typography variant="h6" sx={{ marginTop: 3 }} gutterBottom>
-        Wie lange dauert die Ausbildung?
+        <strong>Wie lange dauert die Ausbildung?</strong>
       </Typography>
       <Typography variant="body1">
         Die Ausbildungsdauer ist abhängig vom Ausbildungsberuf. Im dualen
@@ -172,8 +172,8 @@ const CommercialVocSchool = () => {
       </Typography>
 
       <Typography variant="h6" sx={{ marginTop: 3 }} gutterBottom>
-        Welche Zusatzqualifikationen und Weiterbildungsmöglichkeiten neben der
-        kaufmännischen Berufsschule sind möglich?
+        <strong>Welche Zusatzqualifikationen und Weiterbildungsmöglichkeiten neben der
+          kaufmännischen Berufsschule sind möglich?</strong>
       </Typography>
       <List>
         <ListItem>
@@ -215,7 +215,7 @@ const CommercialVocSchool = () => {
       </List>
 
       <Typography variant="h6" sx={{ marginTop: 3 }} gutterBottom>
-        Welche Fächer werden angeboten?
+        <strong>Welche Fächer werden angeboten?</strong>
       </Typography>
       <List>
         <ListItem>
@@ -240,7 +240,7 @@ const CommercialVocSchool = () => {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
         imageSrc:
-          "/src/team_images/84B094DE-C3E2-4F92-85C8-1AD6DE1E4FF7-1024x1024-190x190.jpeg",
+          "/team_images/84B094DE-C3E2-4F92-85C8-1AD6DE1E4FF7-1024x1024-190x190.jpeg",
         name: "Sven Hölig",
         role: "Abteilungsleiter",
         department: "",
@@ -249,7 +249,7 @@ const CommercialVocSchool = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/btr-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/btr-1024x1024-190x190.jpeg",
         name: "Erik Böttcher",
         role: "Abteilungsassistenz",
         department: "",
@@ -258,7 +258,7 @@ const CommercialVocSchool = () => {
     {
       size: { xs: 3, sm: 3, md: 3, lg: 1 },
       member: {
-        imageSrc: "/src/team_images/rue-1024x1024-190x190.jpeg",
+        imageSrc: "/team_images/rue-1024x1024-190x190.jpeg",
         name: "Ann-Katrin Rück",
         role: "Abteilungsassistentin",
         department: "",
